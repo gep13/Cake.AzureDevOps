@@ -11,8 +11,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Cake.Tfs</Title>
-    <Description>Addin for the Cake build automation system for working with Azure DevOps or Azure DevOps Server.</Description>
+    <Title>[Deprecated]</Title>
+    <Description>This addin is no longer maintained
+Please use Cake.AzureDevOps instead.</Description>
     <Authors>Pascal Berger</Authors>
     <Copyright>Copyright © Pascal Berger</Copyright>
     <PackageTags>Cake Script Azure-DevOps Azure-DevOps-Server</PackageTags>
@@ -21,7 +22,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/cake-contrib/Cake.Tfs.git</RepositoryUrl>
-    <PackageReleaseNotes>https://github.com/cake-contrib/Cake.Tfs/releases/tag/0.3.2</PackageReleaseNotes>
+    <PackageReleaseNotes>https://github.com/cake-contrib/Cake.Tfs/releases/tag/0.3.3</PackageReleaseNotes>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <TargetsForTfmSpecificContentInPackage>$(TargetsForTfmSpecificContentInPackage);PackBuildOutputs</TargetsForTfmSpecificContentInPackage>
